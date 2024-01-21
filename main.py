@@ -23,7 +23,7 @@ logger = logging.getLogger("EnebaScraper")
 logger.setLevel(logging.ERROR)
 
 # Create a file handler with a file name and mode
-fh = logging.FileHandler("logs\error.log", mode="a")
+fh = logging.FileHandler("logs\\error.log", mode="a")
 
 # Create a formatter with a format string
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")

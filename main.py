@@ -125,9 +125,7 @@ with contextlib.closing(fh):
                 headers = ['Price', 'Name', 'Region', 'Wish List']
 
                 # You can create a list of rows for the csv file, by zipping the data lists together, such as:
-
                 rows = []
-
 
                 for page in zip(self.game_names, self.game_prices, self.game_card_regions, self.wish_list_count):
                     for game in zip(*page):

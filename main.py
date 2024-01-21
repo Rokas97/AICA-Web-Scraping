@@ -1,6 +1,5 @@
 import configparser
 import time
-import logging
 import logging.config
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -9,11 +8,13 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import csv
 import contextlib
+import os
+
 
 webdriver_config = configparser.ConfigParser()
 
 # Read the config.ini file
-webdriver_config.read("config.ini")
+webdriver_config.read("config/config.ini")
 
 # Create a logger with a descriptive name
 logger = logging.getLogger("EnebaScraper")
@@ -22,7 +23,7 @@ logger = logging.getLogger("EnebaScraper")
 logger.setLevel(logging.ERROR)
 
 # Create a file handler with a file name and mode
-fh = logging.FileHandler("error.log", mode="a")
+fh = logging.FileHandler("logs\error.log", mode="a")
 
 # Create a formatter with a format string
 formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")

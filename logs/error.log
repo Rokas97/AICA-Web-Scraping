@@ -1,0 +1,70 @@
+2024-01-21 11:02:02,728 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 100, in scrape_games
+    self.edriver.execute_script("window.scrollTo(0, {});".format(i))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF636072142+3514994]
+	(No symbol) [0x00007FF635C90CE2]
+	(No symbol) [0x00007FF635B376AA]
+	(No symbol) [0x00007FF635B10AFD]
+	(No symbol) [0x00007FF635BACB1B]
+	(No symbol) [0x00007FF635BC218F]
+	(No symbol) [0x00007FF635BA5D93]
+	(No symbol) [0x00007FF635B74BDC]
+	(No symbol) [0x00007FF635B75C64]
+	GetHandleVerifier [0x00007FF63609E16B+3695259]
+	GetHandleVerifier [0x00007FF6360F6737+4057191]
+	GetHandleVerifier [0x00007FF6360EE4E3+4023827]
+	GetHandleVerifier [0x00007FF635DC04F9+689705]
+	(No symbol) [0x00007FF635C9C048]
+	(No symbol) [0x00007FF635C98044]
+	(No symbol) [0x00007FF635C981C9]
+	(No symbol) [0x00007FF635C888C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 11:02:04,878 - EnebaScraper - ERROR - Exception occurred in accept_cookies part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 64, in start
+    self.scrape_games()
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 142, in scrape_games
+    self.edriver.close()
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 459, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF636072142+3514994]
+	(No symbol) [0x00007FF635C90CE2]
+	(No symbol) [0x00007FF635B376AA]
+	(No symbol) [0x00007FF635B10AFD]
+	(No symbol) [0x00007FF635BACB1B]
+	(No symbol) [0x00007FF635BB2F06]
+	(No symbol) [0x00007FF635BA5FB0]
+	(No symbol) [0x00007FF635B74BDC]
+	(No symbol) [0x00007FF635B75C64]
+	GetHandleVerifier [0x00007FF63609E16B+3695259]
+	GetHandleVerifier [0x00007FF6360F6737+4057191]
+	GetHandleVerifier [0x00007FF6360EE4E3+4023827]
+	GetHandleVerifier [0x00007FF635DC04F9+689705]
+	(No symbol) [0x00007FF635C9C048]
+	(No symbol) [0x00007FF635C98044]
+	(No symbol) [0x00007FF635C981C9]
+	(No symbol) [0x00007FF635C888C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+

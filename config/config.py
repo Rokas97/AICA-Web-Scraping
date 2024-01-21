@@ -29,6 +29,6 @@ config.set("LOGGING", "level", "INFO")
 # config.set("LOGGING", "format", '''%(asctime)s :: %(levelname)s : %(name)s : %(message)s : line: %(lineno)d''')
 
 # Write the config file to a path
-with open("config/config.ini", "w") as configfile:
+with open("config.ini", "w") as configfile:
     config.write(configfile)
 

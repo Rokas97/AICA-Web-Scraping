@@ -72,6 +72,7 @@ with contextlib.closing(fh):
                 logger.error("Exception occurred in accept_cookies part", exc_info=True)
 
         def set_min_price(self):
+            # this part is needed to get rid of sold out games, if you enter minimal value, then they disappear.
             try:
                 min_price_input = ('#app > main > div > div.Gn2rwQ > aside > form > div.cE2dbi > div:nth-child(2) > '
                                    'div > input:nth-child(1)')
@@ -94,6 +95,7 @@ with contextlib.closing(fh):
                     for i in range(1, total_height, 5):
                         self.edriver.execute_script("window.scrollTo(0, {});".format(i))
 
+                    # finding data by the class name and storing it
                     all_prices = self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT')
                     prices = [price.text for price in all_prices]
                     self.game_prices.append(prices)

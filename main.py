@@ -8,8 +8,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import csv
 import contextlib
-import os
-
 
 webdriver_config = configparser.ConfigParser()
 
@@ -37,7 +35,7 @@ logger.addHandler(fh)
 # Use a context manager to automatically close the file handler
 with contextlib.closing(fh):
     class EnebaScraper:
-        def __init__(self, driver_path, url):
+        def __init__(self):
             self.driver_path = webdriver_config.get("WEBDRIVER", "driver_path")
             self.url = webdriver_config.get("WEBDRIVER", "url")
             self.min_price = webdriver_config.get("WEBDRIVER", "min_price")
@@ -57,7 +55,8 @@ with contextlib.closing(fh):
                     self.accept_cookies()
                     self.set_min_price()
                     self.scrape_games()
-            except Exception as e:
+                    self.save_data()
+            except (Exception, ):
                 # Add the file handler to the logger
                 logger.error("Exception occurred in accept_cookies part", exc_info=True)
 
@@ -68,19 +67,20 @@ with contextlib.closing(fh):
                 accept_cookies = wait.until(EC.element_to_be_clickable((By.XPATH, select_all)))
                 accept_cookies.click()
                 time.sleep(4)
-            except Exception as e:
+            except (Exception, ):
                 # Add the file handler to the logger
                 logger.error("Exception occurred in accept_cookies part", exc_info=True)
 
         def set_min_price(self):
             try:
-                min_price_input = '#app > main > div > div.Gn2rwQ > aside > form > div.cE2dbi > div:nth-child(2) > div > input:nth-child(1)'
+                min_price_input = ('#app > main > div > div.Gn2rwQ > aside > form > div.cE2dbi > div:nth-child(2) > '
+                                   'div > input:nth-child(1)')
                 wait = WebDriverWait(self.edriver, self.wait_time)
                 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, min_price_input)))
                 input_element = self.edriver.find_element(By.CSS_SELECTOR, min_price_input)
                 input_element.send_keys(self.min_price)
                 time.sleep(3)
-            except Exception as e:
+            except (Exception, ):
 
                 # Add the file handler to the logger
                 logger.error("Exception occurred in set_min_price part", exc_info=True)
@@ -93,17 +93,19 @@ with contextlib.closing(fh):
                     total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
                     for i in range(1, total_height, 5):
                         self.edriver.execute_script("window.scrollTo(0, {});".format(i))
-                    # pr = '//*[@id="app"]/main/div/div[2]/section/div[2]/div[3]/div[1]/div/div[3]/a/div[1]/span[2]/span'
-                    # all_prices = edriviver.find_elements(By.XPATH, pr)
 
                     all_prices = self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT')
-                    self.game_prices.append(all_prices)
+                    prices = [price.text for price in all_prices]
+                    self.game_prices.append(prices)
                     all_names = self.edriver.find_elements(By.CLASS_NAME, 'YLosEL')
-                    self.game_names.append(all_names)
+                    names = [name.text for name in all_names]
+                    self.game_names.append(names)
                     all_regions = self.edriver.find_elements(By.CLASS_NAME, 'Pm6lW1')
-                    self.game_card_regions.append(all_regions)
+                    regions = [region.text for region in all_regions]
+                    self.game_card_regions.append(regions)
                     wish_lists = self.edriver.find_elements(By.CLASS_NAME, 'BwtiXe')
-                    self.wish_list_count.append(wish_lists)
+                    wishes = [wish_list.text for wish_list in wish_lists]
+                    self.wish_list_count.append(wishes)
                     # next page button
                     next_selector = 'rc-pagination-next'
                     press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
@@ -111,20 +113,23 @@ with contextlib.closing(fh):
                         print("No more pages to scrape")  # print a message to the user
                         return
                     press_next.click()
-                except Exception as e:
-
-                    # Add the file handler to the logger
+                except KeyboardInterrupt:
+                    raise
+                except (Exception, ):
                     logger.error("Exception occurred in scrape_game part", exc_info=True)
-                    break
 
-            def save_data(self):
+        def save_data(self):
+            try:
                 # Assuming you have the scraped data in lists of lists, such as:
                 # You can create a list of headers for the csv file, such as:
                 headers = ['Price', 'Name', 'Region', 'Wish List']
 
                 # You can create a list of rows for the csv file, by zipping the data lists together, such as:
+
                 rows = []
-                for page in zip(self.game_prices, self.game_names, self.game_card_regions, self.wish_list_count):
+
+
+                for page in zip(self.game_names, self.game_prices, self.game_card_regions, self.wish_list_count):
                     for game in zip(*page):
                         rows.append(game)
 
@@ -133,15 +138,15 @@ with contextlib.closing(fh):
                     writer = csv.writer(csvfile)
                     writer.writerow(headers)
                     writer.writerows(rows)
+            except KeyboardInterrupt:
+                raise
+            except (Exception, ):
+                logger.error("Exception occurred in scrape_game part", exc_info=True)
 
             self.edriver.close()
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    scraper = EnebaScraper("Drivers/chromedriver.exe", "https://www.eneba.com/lt/store/mmo-games")
+    scraper = EnebaScraper()
     scraper.start()
-
-    print('Hi')
-
-logging.info('{} : {}'.format('Addition result', ...))

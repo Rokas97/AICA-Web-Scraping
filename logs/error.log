@@ -68,3 +68,625 @@ Stacktrace:
 	BaseThreadInitThunk [0x00007FF949A1257D+29]
 	RtlUserThreadStart [0x00007FF94ADEAA58+40]
 
+2024-01-21 11:56:21,006 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:56:28,268 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:56:35,395 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:56:42,467 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:56:49,553 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:56:57,039 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:03,810 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:10,301 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:16,985 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:23,672 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:30,342 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:36,957 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:43,560 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:50,181 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:57:57,146 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:03,522 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:10,719 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:17,470 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:23,988 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:30,377 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:36,829 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:43,204 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 11:58:49,610 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 97, in scrape_games
+    all_prices = eval(self.edriver.find_elements(By.CLASS_NAME, 'L5ErLT'))
+TypeError: eval() arg 1 must be a string, bytes or code object
+2024-01-21 12:07:56,477 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 127, in save_data
+    rows.append(game.text)
+AttributeError: 'tuple' object has no attribute 'text'
+2024-01-21 12:13:28,080 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 131, in save_data
+    rows.append(game.text)
+AttributeError: 'tuple' object has no attribute 'text'
+2024-01-21 12:25:56,203 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 130, in save_data
+    for game in zip(*page):
+TypeError: 'NoneType' object is not iterable
+2024-01-21 12:39:55,120 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 131, in save_data
+    prices.append(price.text)
+AttributeError: 'list' object has no attribute 'text'
+2024-01-21 13:03:25,985 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 131, in save_data
+    prices.append(price.text)
+AttributeError: 'list' object has no attribute 'text'
+2024-01-21 13:20:43,740 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 111, in scrape_games
+    press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rc-pagination-next"}
+  (Session info: chrome=120.0.6099.225); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFDA1860]
+	(No symbol) [0x00007FF7BFDA197C]
+	(No symbol) [0x00007FF7BFDE4EE7]
+	(No symbol) [0x00007FF7BFDC602F]
+	(No symbol) [0x00007FF7BFDE28F6]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:20:48,330 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 111, in scrape_games
+    press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rc-pagination-next"}
+  (Session info: chrome=120.0.6099.225); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFDA1860]
+	(No symbol) [0x00007FF7BFDA197C]
+	(No symbol) [0x00007FF7BFDE4EE7]
+	(No symbol) [0x00007FF7BFDC602F]
+	(No symbol) [0x00007FF7BFDE28F6]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:20:52,831 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 111, in scrape_games
+    press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rc-pagination-next"}
+  (Session info: chrome=120.0.6099.225); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFDA1860]
+	(No symbol) [0x00007FF7BFDA197C]
+	(No symbol) [0x00007FF7BFDE4EE7]
+	(No symbol) [0x00007FF7BFDC602F]
+	(No symbol) [0x00007FF7BFDE28F6]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:20:57,260 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 111, in scrape_games
+    press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rc-pagination-next"}
+  (Session info: chrome=120.0.6099.225); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFDA1860]
+	(No symbol) [0x00007FF7BFDA197C]
+	(No symbol) [0x00007FF7BFDE4EE7]
+	(No symbol) [0x00007FF7BFDC602F]
+	(No symbol) [0x00007FF7BFDE28F6]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:01,986 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 111, in scrape_games
+    press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rc-pagination-next"}
+  (Session info: chrome=120.0.6099.225); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFDA1860]
+	(No symbol) [0x00007FF7BFDA197C]
+	(No symbol) [0x00007FF7BFDE4EE7]
+	(No symbol) [0x00007FF7BFDC602F]
+	(No symbol) [0x00007FF7BFDE28F6]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:06,554 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 111, in scrape_games
+    press_next = self.edriver.find_element(By.CLASS_NAME, next_selector)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 742, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rc-pagination-next"}
+  (Session info: chrome=120.0.6099.225); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFDA1860]
+	(No symbol) [0x00007FF7BFDA197C]
+	(No symbol) [0x00007FF7BFDE4EE7]
+	(No symbol) [0x00007FF7BFDC602F]
+	(No symbol) [0x00007FF7BFDE28F6]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:09,566 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:12,573 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:15,577 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:18,590 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:21,604 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:24,614 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:27,618 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
+2024-01-21 13:21:30,629 - EnebaScraper - ERROR - Exception occurred in scrape_game part
+Traceback (most recent call last):
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\main.py", line 93, in scrape_games
+    total_height = int(self.edriver.execute_script("return document.body.scrollHeight"))
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 408, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 348, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\roksu\OneDrive\Desktop\AICA\Project1\Project\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.225)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C0292142+3514994]
+	(No symbol) [0x00007FF7BFEB0CE2]
+	(No symbol) [0x00007FF7BFD576AA]
+	(No symbol) [0x00007FF7BFD30AFD]
+	(No symbol) [0x00007FF7BFDCCB1B]
+	(No symbol) [0x00007FF7BFDE218F]
+	(No symbol) [0x00007FF7BFDC5D93]
+	(No symbol) [0x00007FF7BFD94BDC]
+	(No symbol) [0x00007FF7BFD95C64]
+	GetHandleVerifier [0x00007FF7C02BE16B+3695259]
+	GetHandleVerifier [0x00007FF7C0316737+4057191]
+	GetHandleVerifier [0x00007FF7C030E4E3+4023827]
+	GetHandleVerifier [0x00007FF7BFFE04F9+689705]
+	(No symbol) [0x00007FF7BFEBC048]
+	(No symbol) [0x00007FF7BFEB8044]
+	(No symbol) [0x00007FF7BFEB81C9]
+	(No symbol) [0x00007FF7BFEA88C4]
+	BaseThreadInitThunk [0x00007FF949A1257D+29]
+	RtlUserThreadStart [0x00007FF94ADEAA58+40]
+
